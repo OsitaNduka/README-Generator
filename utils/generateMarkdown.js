@@ -14,12 +14,39 @@ function generateMarkdown(data) {
   * [License](#license)
   
      > Contributing
+     > Test
+     > Questions
 
 
 
   ## Installation
 
+  To install necessary dependencies, run this command:
+
   # ${data.installation}
+
+
+  ## Usage
+
+  # ${data.usage}
+
+  ## License
+
+  # ${data.license}
+
+  ## Contributing
+
+  # ${data.contributing}
+
+  ## Tests
+
+  # ${data.test}
+
+  ## Questions
+
+  # ${data.questions}
+
+
   
 
 

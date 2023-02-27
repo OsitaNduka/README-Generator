@@ -54,6 +54,11 @@ inquirer
          name: 'Contributing',
          message: 'What does the user need to know about contributing to the repo?'
       },
+      {
+         type: 'input',
+         name: 'Questions',
+         message: 'If you have any questions about the repo. please contact me',
+      }
   ])
   .then((answer) => {
       console.log('Hi' + answer.Title, answer.installation)
