@@ -4,8 +4,10 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = () => {
-  return inquirer.prompt([
+// function to initialize program
+function init() {
+inquirer
+  .prompt([
       {
            type: 'input',
            name: 'github',
@@ -24,13 +26,13 @@ const questions = () => {
       {
            type: 'input',
            name: 'Description',
-           message: 'Please provide a short description explaining your project'
+           message: 'Please provide a short description explaining your project?'
       },
       {
            type: 'list',
            message: 'What kind of license should your project have?',
            name: 'license',
-           choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+           choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'BSD 2', 'None'],
       },
       {
           type: 'input',
@@ -40,7 +42,7 @@ const questions = () => {
       {
           type: 'input',
           name: 'Test',
-          message: 'What command should be run to run test?',
+          message: 'What is the command to run test?',
       },
       {
           type: 'input',
@@ -50,19 +52,25 @@ const questions = () => {
       {
          type: 'input',
          name: 'Contributing',
-         message: 'What does the user need to know about contributingto the repo?'
-      }
-  ]);
+         message: 'What does the user need to know about contributing to the repo?'
+      },
+  ])
+  .then((answer) => {
+      console.log('Hi' + answer.Title, answer.installation)
+      var res = generateMarkdown(answer)
+      fs.writeFile('README.md', `${res}`, function(err, file){
+            if (err) throw err;
+            console.log('success!')
+      })
+  })
 };
 
 // function to write README file
 function writeToFile(fileName, data) {
 }
 
-// function to initialize program
-function init() {
 
-}
+
 
 // function call to initialize program
 init();
