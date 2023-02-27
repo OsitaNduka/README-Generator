@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 
   ## Description
 
-  ${data.description}
+  # ${data.description}
 
   ## Table of Contents
 
@@ -12,10 +12,16 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
+  
+     > Contributing
+
+
 
   ## Installation
 
-  ${data.installation}
+  # ${data.installation}
+  
+
 
 `;
 }
