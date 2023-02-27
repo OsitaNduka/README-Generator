@@ -61,7 +61,7 @@ inquirer
       }
   ])
   .then((answer) => {
-      console.log('Hi' + answer.Title, answer.installation)
+      console.log(answer.Title, answer.installation)
       var res = generateMarkdown(answer)
       fs.writeFile('README.md', `${res}`, function(err, file){
             if (err) throw err;

@@ -13,9 +13,9 @@ function generateMarkdown(data) {
   * [Credits](#credits)
   * [License](#license)
   
-     > Contributing
-     > Test
-     > Questions
+     * Contributing
+     * Test
+     * Questions
 
 
 
