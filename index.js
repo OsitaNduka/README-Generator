@@ -20,12 +20,12 @@ inquirer
       },
       {
            type: 'input',
-           name: 'Title',
+           name: 'title',
            message: 'What is the name/title of your project?',
       },
       {
            type: 'input',
-           name: 'Description',
+           name: 'description',
            message: 'Please provide a short description explaining your project?'
       },
       {
@@ -36,27 +36,27 @@ inquirer
       },
       {
           type: 'input',
-          name: 'Installation',
+          name: 'installation',
           message: 'What command should be run to install dependencies?',
       },
       {
           type: 'input',
-          name: 'Test',
+          name: 'test',
           message: 'What is the command to run test?',
       },
       {
           type: 'input',
-          name: 'Usage',
+          name: 'usage',
           message: 'What does the user need to know about using the repo?',
       },
       {
          type: 'input',
-         name: 'Contributing',
+         name: 'contributing',
          message: 'What does the user need to know about contributing to the repo?'
       },
       {
          type: 'input',
-         name: 'Questions',
+         name: 'questions',
          message: 'If you have any questions about the repo. please contact me',
       }
   ])
