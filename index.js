@@ -58,12 +58,12 @@ inquirer
          type: 'input',
          name: 'questions',
          message: 'If you have any questions about the repo. please contact me',
-      }
+      },
   ])
   .then((answer) => {
       console.log(answer.Title, answer.installation)
       var res = generateMarkdown(answer)
-      fs.writeFile('README.md', `${res}`, function(err, file){
+      fs.writeFile('generatedREADME.md', `${res}`, function(err, file){
             if (err) throw err;
             console.log('success!')
       })

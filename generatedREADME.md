@@ -1,10 +1,8 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# README
 
   ## Description
 
-  # ${data.description}
+  # JAVA JAVA
 
   ## Table of Contents
 
@@ -23,38 +21,34 @@ function generateMarkdown(data) {
 
   To install necessary dependencies, run this command:
 
-  # ${data.installation}
+  # aaa
 
 
   ## Usage
 
-  # ${data.usage}
+  # something
 
   ## License
 
   This project is licensed under the
 
-  # ${data.license}
+  # APACHE 2.0
 
   ## Contributing
 
-  # ${data.contributing}
+  # something
 
   ## Tests
 
-  # ${data.test}
+  # test
 
   ## Questions
 
   If you have any questions about the repo. please contact me
 
-  # ${data.github}
+  # ositnduka
 
 
   
 
 
-`;
-}
-
-module.exports = generateMarkdown;
