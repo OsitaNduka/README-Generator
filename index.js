@@ -38,6 +38,7 @@ inquirer
           type: 'input',
           name: 'installation',
           message: 'What command should be run to install dependencies?',
+          
       },
       {
           type: 'input',
@@ -61,9 +62,9 @@ inquirer
       },
   ])
   .then((answer) => {
-      console.log(answer.Title, answer.installation)
+      console.log(answer.title, answer.installation)
       var res = generateMarkdown(answer)
-      fs.writeFile('generatedREADME.md', `${res}`, function(err, file){
+      fs.writeFile('generatedREADME.md', res, function(err, file){
             if (err) throw err;
             console.log('success!')
       })

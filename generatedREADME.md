@@ -1,15 +1,17 @@
-# README
+# readme
+
+  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
   ## Description
 
-  # JAVA JAVA
+  # a readme
 
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [License](#license)
+  * [License](#license) 
   
     * [Contributing](#contributing)
      * [Tests](#tests)
@@ -21,33 +23,35 @@
 
   To install necessary dependencies, run this command:
 
-  # aaa
+  # npm i
 
 
   ## Usage
 
-  # something
+  # repo
 
   ## License
 
   This project is licensed under the
 
-  # APACHE 2.0
+  # MIT
+ MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributing
 
-  # something
+  # contributing
 
   ## Tests
 
-  # test
+  # npm test
 
   ## Questions
 
   If you have any questions about the repo. please contact me
 
-  # ositnduka
+  # osita
 
+  
 
   
 
