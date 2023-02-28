@@ -30,6 +30,8 @@ When a user enters their GitHub username, it's added to the section of README la
 
 When a user enters the link in the Table of Contents, they will be taken to the corresponding section of the README.
 
+![Screenshot](README.PNG)
+
 
 ## Installation
 
