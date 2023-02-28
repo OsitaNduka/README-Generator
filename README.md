@@ -10,14 +10,14 @@ The professional README generated will have the following:
 
 1. The title of my project
 2. Sections entitled:
-   Description
-   Table of Contents
-   Installation
-   Usage
-   License
-   Contributing
-   Tests
-   Questions
+1. Description
+2.   Table of Contents
+3.   Installation
+4. Usage
+5. License
+6. Contributing
+7. Tests
+8. Questions
 
 
 ## Usage
