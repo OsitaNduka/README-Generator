@@ -54,7 +54,7 @@ function generateMarkdown(data) {
 
   # ${data.github}
 
-  
+  # ${data.email}
 
   
 
