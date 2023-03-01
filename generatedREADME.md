@@ -1,10 +1,10 @@
-# README Generator
+# README
 
   ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
   ## Description
 
-  # a readme generator
+  #  a README generator
 
   ## Table of Contents
 
@@ -48,6 +48,8 @@
   ## Questions
 
   If you have any questions about the repo. please contact me
+
+  # ositanduka
 
   # ositanduka
 

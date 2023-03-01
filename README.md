@@ -37,6 +37,9 @@ When a user enters the link in the Table of Contents, they will be taken to the 
 
 The user need to install the dependencies to the application by using the command-line: npm i (node package manager initialize: node_modules), and also run the test by using npm test.
 
+## Credits/Contributing
+
+
 ## License
 
 Please refer to the license in the repo.
