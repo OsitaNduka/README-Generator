@@ -4,7 +4,7 @@
 
   ## Description
 
-  #  a README generator
+  # Readme project
 
   ## Table of Contents
 
@@ -43,15 +43,17 @@
 
   ## Tests
 
-  # npm test
+  # npm
 
   ## Questions
 
+  *[Github](OsitaNduka)
+
   If you have any questions about the repo. please contact me
 
-  # ositanduka
+  
 
-  # ositanduka
+  *[Email](mailto:ositanduka@ymail)
 
   
 

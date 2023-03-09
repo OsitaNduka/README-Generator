@@ -50,11 +50,13 @@ function generateMarkdown(data) {
 
   ## Questions
 
+  *[Github](${data.github})
+
   If you have any questions about the repo. please contact me
 
-  # ${data.github}
+  
 
-  # ${data.email}
+  *[Email](mailto:${data.email})
 
   
 
