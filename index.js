@@ -53,13 +53,22 @@ inquirer
       {
          type: 'input',
          name: 'contributing',
-         message: 'What does the user need to know about contributing to the repo?'
+         message: 'What does the user need to know about contributing to the repo?',
       },
       {
          type: 'input',
          name: 'questions',
          message: 'If you have any questions about the repo. please contact me',
+         validate: emailInput => {
+          if (emailInput) {
+              return true;
+          } else {
+              console.log('If anyone has questions about your project, you must provide a way for them to contact you');
+              return false;
+          }
+      }
       },
+
   ])
   .then((answer) => {
     //console.log(answer.title, answer.installation)

@@ -19,6 +19,12 @@ The professional README generated will have the following:
 7. Tests
 8. Questions
 
+A walkthrough video demonstrating the functionality of the application:
+
+https://www.dropbox.com/s/i2emnzyq7rslzru/README%20Generator.avi?dl=0Links to an external site.
+
+ 
+
 
 ## Usage
 

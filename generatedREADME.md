@@ -1,10 +1,10 @@
-# README
+# sos
 
   ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
   ## Description
 
-  # Readme project
+  # sos
 
   ## Table of Contents
 
@@ -23,12 +23,12 @@
 
   To install necessary dependencies, run this command:
 
-  # npm i
+  # sks
 
 
   ## Usage
 
-  # about repo
+  # sj
 
   ## License
 
@@ -39,21 +39,21 @@
 
   ## Contributing
 
-  # contributing
+  # jsj
 
   ## Tests
 
-  # npm
+  # jsj
 
   ## Questions
 
-  *[Github](OsitaNduka)
+  *[Github](oso)
 
   If you have any questions about the repo. please contact me
 
   
 
-  *[Email](mailto:ositanduka@ymail)
+  *[Email](mailto:oso)
 
   
 
